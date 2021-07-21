@@ -4,7 +4,15 @@
 //
 // import { User } from 'path/to/interfaces';
 
-export type User = {
-  id: number
-  name: string
+export type note = {
+  
+    id:number;
+    mainname:string;
+    subname:string;
+    words:word[];
+}
+
+export type word = {
+  beforeword:string;
+  afterword:string;
 }
